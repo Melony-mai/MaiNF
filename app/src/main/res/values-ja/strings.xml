@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App info -->
+    <string name="app_name">MaiNF</string>
+    <string name="app_description">FTP / SMB ファイル転送＆リモート管理</string>
+    <string name="version_text">バージョン 1.0.0</string>
+    <string name="about_description">FTP および SMB プロトコルに対応した、モダンな双方向ファイル転送・リモート管理アプリです。</string>
+    <string name="about_features">主な機能：\n• 双方向接続：クライアント接続およびサーバー公開（ホスト）両対応\n• FTP / FTPS クライアント＆内蔵 FTP サーバー\n• SMB 2/3 クライアント＆内蔵 SMB 共有サーバー\n• リアルタイム転送キュー＆速度表示\n• 3言語対応（日本語・英語・中国語）</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_servers">サーバー</string>
+    <string name="tab_remote">リモート</string>
+    <string name="tab_transfers">転送一覧</string>
+    <string name="tab_local">ローカル</string>
+    <string name="tab_host">公開共有</string>
+
+    <!-- Client Servers Screen -->
+    <string name="servers_title">リモートサーバー一覧</string>
+    <string name="no_servers_title">登録されているサーバーがありません</string>
+    <string name="no_servers_desc">下の「+」ボタンをタップして、FTP または SMB サーバーを追加してください。</string>
+    <string name="add_server">サーバーを追加</string>
+    <string name="edit_server">サーバーを編集</string>
+    <string name="delete_server">削除</string>
+    <string name="server_name">サーバー名</string>
+    <string name="server_name_placeholder">例: 自宅NAS / 共有ストレージ</string>
+    <string name="host_ip">ホスト / IP アドレス</string>
+    <string name="port">ポート番号</string>
+    <string name="anonymous_access">匿名（Anonymous）アクセス</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="share_name">共有名（必須）</string>
+    <string name="share_name_placeholder">例: shared または public</string>
+    <string name="domain_workgroup">ドメイン / ワークグループ（任意）</string>
+    <string name="passive_mode">パッシブモード（PASV）</string>
+    <string name="initial_path">初期パス</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="connect">接続</string>
+    <string name="connecting">接続中…</string>
+    <string name="disconnect">切断</string>
+    <string name="connected">接続完了</string>
+    <string name="disconnected">未接続</string>
+    <string name="never_connected">未接続</string>
+    <string name="last_connected">最終接続: %s</string>
+
+    <!-- Browser Screen -->
+    <string name="browser_no_server_title">サーバーに接続されていません</string>
+    <string name="browser_no_server_desc">FTP または SMB サーバーに接続すると、ファイルを閲覧・転送できます。</string>
+    <string name="go_to_servers">サーバー一覧へ</string>
+    <string name="filter_directory">現在のフォルダ内を絞り込み…</string>
+    <string name="folder_empty">このフォルダは空です</string>
+    <string name="no_matching_files">一致するファイルが見つかりません</string>
+    <string name="new_folder">新しいフォルダ</string>
+    <string name="folder_name">フォルダ名</string>
+    <string name="create">作成</string>
+    <string name="rename">名前の変更</string>
+    <string name="new_name">新しい名前</string>
+    <string name="delete">削除</string>
+    <string name="confirm_delete_title">削除の確認</string>
+    <string name="confirm_delete_msg">「%s」を削除してもよろしいですか？この操作は元に戻せません。</string>
+    <string name="item_details">詳細情報</string>
+    <string name="details_name">名前</string>
+    <string name="details_type">種類</string>
+    <string name="details_path">パス</string>
+    <string name="details_size">サイズ</string>
+    <string name="details_modified">更新日時</string>
+    <string name="details_attrs">属性</string>
+    <string name="type_directory">フォルダ</string>
+    <string name="type_file">ファイル (%s)</string>
+    <string name="upload">アップロード</string>
+    <string name="download">ダウンロード</string>
+    <string name="refresh">更新</string>
+    <string name="retry">再試行</string>
+    <string name="close">閉じる</string>
+
+    <!-- Transfers Screen -->
+    <string name="transfers_active">転送中</string>
+    <string name="transfers_history">履歴</string>
+    <string name="no_active_transfers">進行中の転送はありません</string>
+    <string name="no_transfer_history">転送履歴はありません</string>
+    <string name="clear_history">履歴を消去</string>
+    <string name="status_completed">完了</string>
+    <string name="status_failed">失敗</string>
+    <string name="status_cancelled">キャンセル済み</string>
+    <string name="status_pending">待機中</string>
+    <string name="upload_started">アップロードを開始しました: %s</string>
+
+    <!-- Local Files Screen -->
+    <string name="local_storage_title">ダウンロード / MaiNF</string>
+    <string name="no_local_files_title">ダウンロード済みファイルはありません</string>
+    <string name="no_local_files_desc">FTP または SMB サーバーからダウンロードしたファイルはここに表示されます。</string>
+    <string name="open">開く</string>
+    <string name="share">共有</string>
+    <string name="upload_to_server">%s へアップロード</string>
+    <string name="delete_local_title">ローカルファイルを削除</string>
+    <string name="delete_local_msg">端末ストレージから「%s」を削除しますか？</string>
+
+    <!-- Host / Server Mode Screen -->
+    <string name="host_screen_title">ホスト共有サービス</string>
+    <string name="host_screen_desc">同一ネットワーク上のPCやスマートフォンから、本端末へ FTP または SMB 経由で直接接続できます。</string>
+    <string name="device_ip_address">端末 IP アドレス</string>
+    <string name="device_ip_unknown">Wi-Fi または LAN に接続されていません</string>
+    <string name="ftp_server_card">FTP サーバー（着信）</string>
+    <string name="ftp_server_help">PC の FTP クライアントやブラウザから直接アクセス可能</string>
+    <string name="smb_server_card">SMB ファイル共有（着信）</string>
+    <string name="smb_server_help">Windows のネットワーク共有や Samba としてアクセス可能</string>
+    <string name="server_running">稼働中</string>
+    <string name="server_stopped">停止中</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="server_port">ポート番号</string>
+    <string name="server_username">認証ユーザー名</string>
+    <string name="server_password">認証パスワード</string>
+    <string name="server_anonymous">匿名アクセスを許可</string>
+    <string name="server_shared_folder">共有フォルダ</string>
+    <string name="server_read_only">読み取り専用モード（保護）</string>
+    <string name="server_read_write">読み取り・書き込みを許可</string>
+    <string name="active_clients">接続中のクライアント数</string>
+    <string name="server_activity_logs">アクセス履歴ログ</string>
+    <string name="no_activity_yet">アクセスログはまだありません</string>
+    <string name="clear_logs">ログを消去</string>
+
+    <!-- Language Settings -->
+    <string name="settings_language">言語設定 (Language)</string>
+    <string name="lang_system">システム標準 (System Default)</string>
+    <string name="lang_en">English (英語)</string>
+    <string name="lang_zh">简体中文 (中国語)</string>
+    <string name="lang_ja">日本語</string>
+
+    <!-- Notifications -->
+    <string name="notif_transfer_title">ファイル転送</string>
+    <string name="notif_transfer_desc">MaiNF のファイル転送進捗を表示します</string>
+    <string name="notif_server_title">MaiNF ホスト共有サービス</string>
+    <string name="notif_server_desc">FTP / SMB サーバーがバックグラウンドで稼働しています</string>
+</resources>

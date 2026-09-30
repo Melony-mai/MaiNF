@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App info -->
+    <string name="app_name">MaiNF</string>
+    <string name="app_description">FTP 与 SMB 文件传输与远程管理</string>
+    <string name="version_text">版本 1.0.0</string>
+    <string name="about_description">支持 FTP 与 SMB 协议的现代双向文件传输与远程文件管理工具。</string>
+    <string name="about_features">功能特性：\n• 双向互联：支持客户端模式与服务端共享模式\n• FTP / FTPS 客户端与内置 FTP 服务器\n• SMB 2/3 客户端与内置 SMB 文件共享服务\n• 实时传输队列与速度监控\n• 完整三语本地化（英语、中文、日语）</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_servers">服务器</string>
+    <string name="tab_remote">远程浏览</string>
+    <string name="tab_transfers">传输任务</string>
+    <string name="tab_local">本地文件</string>
+    <string name="tab_host">本地共享</string>
+
+    <!-- Client Servers Screen -->
+    <string name="servers_title">远程服务器列表</string>
+    <string name="no_servers_title">未配置服务器</string>
+    <string name="no_servers_desc">点击下方“+”按钮添加您的首个 FTP 或 SMB 服务器连接。</string>
+    <string name="add_server">添加服务器</string>
+    <string name="edit_server">编辑服务器</string>
+    <string name="delete_server">删除</string>
+    <string name="server_name">服务器名称</string>
+    <string name="server_name_placeholder">例如：家庭存储 / 办公NAS</string>
+    <string name="host_ip">主机 / IP 地址</string>
+    <string name="port">端口</string>
+    <string name="anonymous_access">匿名访问</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="share_name">共享名称（必填）</string>
+    <string name="share_name_placeholder">例如：shared 或 public</string>
+    <string name="domain_workgroup">工作组 / 域名（可选）</string>
+    <string name="passive_mode">被动模式（PASV）</string>
+    <string name="initial_path">起始路径</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="connect">连接</string>
+    <string name="connecting">正在连接…</string>
+    <string name="disconnect">断开连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="never_connected">从未连接</string>
+    <string name="last_connected">最近连接：%s</string>
+
+    <!-- Browser Screen -->
+    <string name="browser_no_server_title">当前未连接服务器</string>
+    <string name="browser_no_server_desc">请先连接到 FTP 或 SMB 服务器以浏览和传输远程文件。</string>
+    <string name="go_to_servers">前往服务器列表</string>
+    <string name="filter_directory">筛选当前目录…</string>
+    <string name="folder_empty">当前文件夹为空</string>
+    <string name="no_matching_files">未找到匹配的文件</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="folder_name">文件夹名称</string>
+    <string name="create">创建</string>
+    <string name="rename">重命名</string>
+    <string name="new_name">新名称</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete_title">确认删除</string>
+    <string name="confirm_delete_msg">确定要删除“%s”吗？此操作无法撤销。</string>
+    <string name="item_details">详细信息</string>
+    <string name="details_name">名称</string>
+    <string name="details_type">类型</string>
+    <string name="details_path">路径</string>
+    <string name="details_size">大小</string>
+    <string name="details_modified">修改时间</string>
+    <string name="details_attrs">权限属性</string>
+    <string name="type_directory">文件夹</string>
+    <string name="type_file">文件（%s）</string>
+    <string name="upload">上传</string>
+    <string name="download">下载</string>
+    <string name="refresh">刷新</string>
+    <string name="retry">重试</string>
+    <string name="close">关闭</string>
+
+    <!-- Transfers Screen -->
+    <string name="transfers_active">进行中</string>
+    <string name="transfers_history">历史记录</string>
+    <string name="no_active_transfers">暂无正在进行的传输任务</string>
+    <string name="no_transfer_history">暂无传输历史记录</string>
+    <string name="clear_history">清空历史</string>
+    <string name="status_completed">已完成</string>
+    <string name="status_failed">失败</string>
+    <string name="status_cancelled">已取消</string>
+    <string name="status_pending">排队中</string>
+    <string name="upload_started">已开始上传：%s</string>
+
+    <!-- Local Files Screen -->
+    <string name="local_storage_title">下载目录 / MaiNF</string>
+    <string name="no_local_files_title">暂无已下载的文件</string>
+    <string name="no_local_files_desc">从 FTP 或 SMB 服务器下载的文件将显示在此处。</string>
+    <string name="open">打开</string>
+    <string name="share">分享</string>
+    <string name="upload_to_server">上传至 %s</string>
+    <string name="delete_local_title">删除本地文件</string>
+    <string name="delete_local_msg">确定从设备存储中删除“%s”吗？</string>
+
+    <!-- Host / Server Mode Screen -->
+    <string name="host_screen_title">本地服务（主机共享）</string>
+    <string name="host_screen_desc">开启后，局域网内的电脑、手机等其他设备可通过 FTP 或 SMB 连接本机进行文件传输。</string>
+    <string name="device_ip_address">本机 IP 地址</string>
+    <string name="device_ip_unknown">未连接 Wi-Fi 或局域网</string>
+    <string name="ftp_server_card">FTP 服务（入站）</string>
+    <string name="ftp_server_help">其他设备可通过 FTP 客户端或网页浏览器直接访问</string>
+    <string name="smb_server_card">SMB 文件共享（入站）</string>
+    <string name="smb_server_help">其他设备可作为 Windows 网上邻居 / Samba 共享访问</string>
+    <string name="server_running">运行中</string>
+    <string name="server_stopped">已停止</string>
+    <string name="start">启动</string>
+    <string name="stop">停止</string>
+    <string name="server_port">监听端口</string>
+    <string name="server_username">认证用户名</string>
+    <string name="server_password">认证密码</string>
+    <string name="server_anonymous">允许匿名访问</string>
+    <string name="server_shared_folder">共享目录</string>
+    <string name="server_read_only">仅读模式（安全保护）</string>
+    <string name="server_read_write">允许读取与写入</string>
+    <string name="active_clients">当前连接设备数</string>
+    <string name="server_activity_logs">服务运行日志</string>
+    <string name="no_activity_yet">暂无服务活动日志</string>
+    <string name="clear_logs">清空日志</string>
+
+    <!-- Language Settings -->
+    <string name="settings_language">语言设置</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_en">English (英语)</string>
+    <string name="lang_zh">简体中文</string>
+    <string name="lang_ja">日本語 (日语)</string>
+
+    <!-- Notifications -->
+    <string name="notif_transfer_title">文件传输引擎</string>
+    <string name="notif_transfer_desc">实时显示 MaiNF 文件传输进度</string>
+    <string name="notif_server_title">MaiNF 本地共享服务</string>
+    <string name="notif_server_desc">MaiNF FTP / SMB 服务正在后台运行中</string>
+</resources>

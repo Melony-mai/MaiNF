@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#072733</color>
+    <color name="mainf_primary">#0D4B5C</color>
+    <color name="mainf_primary_container">#D1E7F0</color>
+    <color name="mainf_secondary">#4A626A</color>
+    <color name="mainf_surface">#FBFDFA</color>
+</resources>

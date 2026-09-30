@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App info -->
+    <string name="app_name">MaiNF</string>
+    <string name="app_description">FTP and SMB File Transfer &amp; Management</string>
+    <string name="version_text">Version 1.0.0</string>
+    <string name="about_description">Modern two-way file transfer and remote file management over FTP and SMB protocols.</string>
+    <string name="about_features">Features:\n• Client &amp; Server (Host) two-way connectivity\n• FTP / FTPS client &amp; embedded FTP server\n• SMB 2/3 client &amp; embedded SMB server\n• Live transfer queue &amp; speed metrics\n• Multi-language support (EN, ZH, JA)</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_servers">Servers</string>
+    <string name="tab_remote">Remote</string>
+    <string name="tab_transfers">Transfers</string>
+    <string name="tab_local">Local</string>
+    <string name="tab_host">Host Share</string>
+
+    <!-- Client Servers Screen -->
+    <string name="servers_title">Remote Servers</string>
+    <string name="no_servers_title">No Servers Configured</string>
+    <string name="no_servers_desc">Tap the + button to add your first FTP or SMB server connection.</string>
+    <string name="add_server">Add Server</string>
+    <string name="edit_server">Edit Server</string>
+    <string name="delete_server">Delete</string>
+    <string name="server_name">Server Name</string>
+    <string name="server_name_placeholder">e.g. Home Storage</string>
+    <string name="host_ip">Host / IP</string>
+    <string name="port">Port</string>
+    <string name="anonymous_access">Anonymous Access</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="share_name">Share Name (Required)</string>
+    <string name="share_name_placeholder">e.g. shared or public</string>
+    <string name="domain_workgroup">Domain / Workgroup (Optional)</string>
+    <string name="passive_mode">Passive Mode (PASV)</string>
+    <string name="initial_path">Initial Path</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting…</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="never_connected">Never connected</string>
+    <string name="last_connected">Last connected: %s</string>
+
+    <!-- Browser Screen -->
+    <string name="browser_no_server_title">No Server Connected</string>
+    <string name="browser_no_server_desc">Connect to an FTP or SMB server to browse and transfer remote files.</string>
+    <string name="go_to_servers">Go to Servers</string>
+    <string name="filter_directory">Filter current directory…</string>
+    <string name="folder_empty">This folder is empty</string>
+    <string name="no_matching_files">No matching files</string>
+    <string name="new_folder">New Folder</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="create">Create</string>
+    <string name="rename">Rename</string>
+    <string name="new_name">New Name</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_title">Confirm Delete</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete \"%s\"? This action cannot be undone.</string>
+    <string name="item_details">Item Details</string>
+    <string name="details_name">Name</string>
+    <string name="details_type">Type</string>
+    <string name="details_path">Path</string>
+    <string name="details_size">Size</string>
+    <string name="details_modified">Modified</string>
+    <string name="details_attrs">Attributes</string>
+    <string name="type_directory">Directory</string>
+    <string name="type_file">File (%s)</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="refresh">Refresh</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+
+    <!-- Transfers Screen -->
+    <string name="transfers_active">Active</string>
+    <string name="transfers_history">History</string>
+    <string name="no_active_transfers">No active transfers</string>
+    <string name="no_transfer_history">No transfer history</string>
+    <string name="clear_history">Clear History</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_pending">Pending</string>
+    <string name="upload_started">Upload started: %s</string>
+
+    <!-- Local Files Screen -->
+    <string name="local_storage_title">Downloads / MaiNF</string>
+    <string name="no_local_files_title">No downloaded files yet</string>
+    <string name="no_local_files_desc">Files downloaded from FTP or SMB servers will appear here.</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="upload_to_server">Upload to %s</string>
+    <string name="delete_local_title">Delete Local File</string>
+    <string name="delete_local_msg">Delete \"%s\" from device storage?</string>
+
+    <!-- Host / Server Mode Screen -->
+    <string name="host_screen_title">Host Services</string>
+    <string name="host_screen_desc">Allow other devices on this network to connect to your device via FTP and SMB.</string>
+    <string name="device_ip_address">Device IP Address</string>
+    <string name="device_ip_unknown">Not connected to Wi-Fi / LAN</string>
+    <string name="ftp_server_card">FTP Server (Incoming)</string>
+    <string name="ftp_server_help">Access from PC / phone using FTP clients or web browser</string>
+    <string name="smb_server_card">SMB Server (Incoming)</string>
+    <string name="smb_server_help">Access as Windows Network Share or Samba client</string>
+    <string name="server_running">Running</string>
+    <string name="server_stopped">Stopped</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="server_port">Listening Port</string>
+    <string name="server_username">Auth Username</string>
+    <string name="server_password">Auth Password</string>
+    <string name="server_anonymous">Allow Anonymous Access</string>
+    <string name="server_shared_folder">Shared Directory</string>
+    <string name="server_read_only">Read-Only Mode</string>
+    <string name="server_read_write">Allow Read &amp; Write</string>
+    <string name="active_clients">Connected Clients</string>
+    <string name="server_activity_logs">Server Activity Log</string>
+    <string name="no_activity_yet">No activity recorded yet</string>
+    <string name="clear_logs">Clear Logs</string>
+
+    <!-- Language Settings -->
+    <string name="settings_language">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh">简体中文 (Chinese)</string>
+    <string name="lang_ja">日本語 (Japanese)</string>
+
+    <!-- Notifications -->
+    <string name="notif_transfer_title">File Transfers</string>
+    <string name="notif_transfer_desc">Shows live file transfer progress for MaiNF</string>
+    <string name="notif_server_title">MaiNF Host Service</string>
+    <string name="notif_server_desc">MaiNF FTP / SMB server is active on the network</string>
+</resources>
